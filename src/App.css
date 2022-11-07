@@ -1,0 +1,76 @@
+body {
+  background-color: cyan;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: chocolate;
+  margin-bottom: 100px;
+}
+
+h2 {
+  text-align:  center;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Plus {
+  width: 250px;
+  font-size: 20px;
+  color: aqua;
+  background-color: green;
+  border: none;
+  border-radius:6%;
+}
+
+.Plus:active {
+  width: 250px;
+  font-size: 20px;
+  color: aqua;
+  background-color: limegreen;
+  border: none;
+  border-radius:6%;
+}
+
+.Minus {
+  width: 250px;
+  font-size: 20px;
+  color: aqua;
+  background-color: red;
+  border: none;
+  border-radius:6%;
+}
+
+.Minus:active {
+  width: 250px;
+  font-size: 20px;
+  color: aqua;
+  background-color: crimson;
+  border: none;
+  border-radius:6%;
+}
+
+.Zero {
+  width: 250px;
+  font-size: 20px;
+  color: aqua;
+  background-color: darkslategrey;
+  border: none;
+  border-radius:6%;
+}
+
